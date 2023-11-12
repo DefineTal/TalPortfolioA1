@@ -1,0 +1,12 @@
+@import "../defaults/colors";
+@import "../defaults/breakpoints";
+@import "./utils";
+
+footer{
+    @include background();
+    .socialmedia{
+        display: flex;
+        justify-content: space-around;
+        font-size: 32px;
+    }
+}

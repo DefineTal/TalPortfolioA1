@@ -1,0 +1,6 @@
+@import "../defaults/colors";
+
+@mixin background(){
+    background-color: $componentcolor;
+    padding: 32px;
+}

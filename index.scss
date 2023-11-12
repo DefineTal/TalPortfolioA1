@@ -1,0 +1,12 @@
+@import "./Styles/defaults/colors";
+@import "./Styles/components/header";
+@import "./Styles/components/footer";
+
+body{
+    margin: 0;
+    background-color: $backgroundcolor;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
