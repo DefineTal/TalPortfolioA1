@@ -1,0 +1,31 @@
+@import "../../index.scss";
+body{
+    font-family: 'Oswald', sans-serif;
+    .circle {
+        font-family: 'Inter Tight', sans-serif;
+        position: absolute;
+        top: 90px;
+        left: 50px;
+        width: 250px;
+        height: 200px;
+        line-height: 200px;
+        border-radius: 50%;
+        font-size: 50px;
+        color: #fff;
+        text-align: center;
+        background: $accentcolor;
+    }
+    .bodytext{
+        margin-top: 175px;
+        background-color: $textbgcolor;
+        border: 0.3px solid black;
+        color: $textcolor;
+        font-size: 15px;
+     }
+    
+    .toblog{
+        text-align: center;
+        margin-bottom: -35px;
+        color: $textcolor;
+        }
+}
