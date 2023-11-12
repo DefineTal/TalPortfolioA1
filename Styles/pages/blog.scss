@@ -1,0 +1,49 @@
+@import "../../index.scss";
+
+body{
+    .holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 15px;
+        margin-bottom: -90px;
+
+        #titleblockblog{
+            font-family: 'Inter Tight', sans-serif;
+            position: absolute;
+            top: 5em;
+            background-color: $accentcolor;
+            width: 100%;
+                h1{
+                    font-size: 31px;
+                    text-align: center;
+                    color: white;
+                    font-weight:bold
+                }
+        }
+        .blogcard{
+            font-family: 'Inter Tight', sans-serif;
+            background-color: $textbgcolor;
+            text-align: center;
+            height: 85px;
+            border: 1px solid black;
+            &:hover{
+                box-shadow: 0px 0px 20px black;
+            }
+           
+            h4{
+                display: inline-block;
+                color: $textcolor;
+                margin-left: 20px;
+            }
+            .blogtitle{
+                float: right;
+                color: $textcolor;
+                margin-right: 70px;
+            }
+            .blogimage{
+                float: left;
+            }
+        }
+    }
+}
