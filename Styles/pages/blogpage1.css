@@ -1,0 +1,56 @@
+header {
+  background-color: #F1FAEE;
+  padding: 32px;
+}
+header #navitems {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -10px;
+  gap: 15px;
+}
+header #navitems .button {
+  font-family: "Inter Tight", sans-serif;
+  border-radius: 50%;
+  background-color: #457B9D;
+  font-size: 20px;
+}
+header #navitems .button:hover {
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+footer {
+  background-color: #F1FAEE;
+  padding: 32px;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+}
+
+body {
+  margin: 0;
+  background-color: #1D3557;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body .titleblock {
+  background-color: #E63946;
+  width: 70%;
+  font-size: x-large;
+  font-family: "Inter Tight", sans-serif;
+  margin-bottom: -20px;
+  margin-top: -30px;
+  color: #F1FAEE;
+}
+body .bodytext {
+  background-color: #457B9D;
+  width: 95%;
+  margin-bottom: 4px;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  color: #F1FAEE;
+}/*# sourceMappingURL=blogpage1.css.map */
