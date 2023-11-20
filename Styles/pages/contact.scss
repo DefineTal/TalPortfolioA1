@@ -87,3 +87,29 @@ body{
         margin-left: 1000px;        
     }
 }
+
+@media screen and (min-width:$tablet) and (max-width:$desktop){
+    body{
+        .circle{
+            font-size: 26px;
+            position: absolute;
+            margin-bottom: -200px;
+            margin-left: 200px;
+            margin-top: 200px;
+            width: 400px;
+            height: 250px;
+            line-height: 250px;
+        }
+        .contactmetitle{
+            margin-top: 400px;
+        }
+        .contactmeparent{
+            .contactelement{
+                font-size: 28px;
+            }
+        }
+        .details{
+            font-size: 20px;
+        }
+    }
+}

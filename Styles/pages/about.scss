@@ -50,3 +50,20 @@ body{
     }
     
 }
+@media screen and (min-width:$tablet) and (max-width:$desktop){
+    body{
+        .circle{
+            width: 400px;
+            height: 300px;
+            line-height: 300px;
+            margin-top: 10px;
+        }
+        .bodytext{
+            font-size: 28px;
+            margin-bottom: 90px;
+        }
+        .toblog{
+            font-size: 20px;
+        }
+    }
+}

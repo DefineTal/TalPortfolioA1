@@ -73,12 +73,26 @@ body{
                 width: 500.688px;
                 height: 423px;
             }
-            // its a feature smiley :)
+
             .overlay{
                 width: 501px;
                 height: 423px;
                 margin-top: 302px;
                 margin-right: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:$tablet) and (max-width:$desktop){
+    body{
+        #mainblockhome{
+            font-size: 28px;
+        }
+        .homeimagediv{
+            #homeimage{
+                width: 700px;
+                height: 600px;
             }
         }
     }

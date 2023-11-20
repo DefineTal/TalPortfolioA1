@@ -1,5 +1,6 @@
 @import "../../index.scss";
 
+
 body{
     @include bodystuff();
     .titleblock{
@@ -18,8 +19,14 @@ body{
         font-family: 'Oswald', sans-serif;
         font-size: 14px;
         color: $textcolor;
-
+    }
+    .blogimgdiv{
+        margin-left: auto;
+        margin-right:auto;   
+        .blogimg{
+        width: 250px;
+        height: 200px;
+        }
     }
 }
-
 @include blogpagebreakpoints();

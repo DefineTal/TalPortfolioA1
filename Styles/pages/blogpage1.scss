@@ -19,8 +19,37 @@ body{
         font-family: 'Oswald', sans-serif;
         font-size: 14px;
         color: $textcolor;
-
+    }
+    .blogimgdiv{
+        margin-left: auto;
+        margin-right:auto;    
+        .blogimg{
+        width: 250px;
+        height: 200px;
+        }
     }
 }
 
-@include blogpagebreakpoints();
+@media screen and (min-width: $desktop) {
+    body{
+        .titleblock{
+            margin-top: 60px;
+            width: 30%;
+            margin-left: 20px;
+        }
+        .bodytext{
+            margin-left: 20px;
+            width: 50%;
+            font-size: 26px;
+        }
+        .blogimgdiv{
+            .blogimg{
+                float: right;
+                margin-top: -450px;
+                margin-right: -600px;
+                width: 500px;
+                height: 450px;
+            }
+        }
+    }
+}

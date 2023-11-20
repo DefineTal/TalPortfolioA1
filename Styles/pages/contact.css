@@ -28,6 +28,16 @@ header #navitems .button:hover {
     font-size: 25px;
   }
 }
+@media screen and (min-width: 834px) and (max-width: 1440px) {
+  header #navitems {
+    justify-content: space-between;
+  }
+  header #navitems .button {
+    width: 100px;
+    height: 60px;
+    font-size: 23px;
+  }
+}
 footer {
   background-image: url("../../Images/background.jpg");
   padding: 32px;
@@ -50,6 +60,11 @@ footer .socialmedia a i:hover {
     justify-content: center;
     gap: 200px;
     font-size: 40px;
+  }
+}
+@media screen and (min-width: 834px) and (max-width: 1440px) {
+  footer .socialmedia {
+    font-size: 50px;
   }
 }
 body {
@@ -139,5 +154,26 @@ body .details {
   .details {
     width: 30%;
     margin-left: 1000px;
+  }
+}
+@media screen and (min-width: 834px) and (max-width: 1440px) {
+  body .circle {
+    font-size: 26px;
+    position: absolute;
+    margin-bottom: -200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 400px;
+    height: 250px;
+    line-height: 250px;
+  }
+  body .contactmetitle {
+    margin-top: 400px;
+  }
+  body .contactmeparent .contactelement {
+    font-size: 28px;
+  }
+  body .details {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=contact.css.map */

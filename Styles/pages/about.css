@@ -28,6 +28,16 @@ header #navitems .button:hover {
     font-size: 25px;
   }
 }
+@media screen and (min-width: 834px) and (max-width: 1440px) {
+  header #navitems {
+    justify-content: space-between;
+  }
+  header #navitems .button {
+    width: 100px;
+    height: 60px;
+    font-size: 23px;
+  }
+}
 footer {
   background-image: url("../../Images/background.jpg");
   padding: 32px;
@@ -50,6 +60,11 @@ footer .socialmedia a i:hover {
     justify-content: center;
     gap: 200px;
     font-size: 40px;
+  }
+}
+@media screen and (min-width: 834px) and (max-width: 1440px) {
+  footer .socialmedia {
+    font-size: 50px;
   }
 }
 body {
@@ -103,5 +118,20 @@ body .toblog #arrow:hover {
   }
   body .toblog {
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 834px) and (max-width: 1440px) {
+  body .circle {
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    margin-top: 10px;
+  }
+  body .bodytext {
+    font-size: 28px;
+    margin-bottom: 90px;
+  }
+  body .toblog {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=about.css.map */

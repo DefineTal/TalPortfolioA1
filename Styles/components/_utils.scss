@@ -27,10 +27,32 @@
                 width: 50%;
                 font-size: 26px;
             }
-            .blogimg{
-                float: right;
-                margin-top: -300px;
-                margin-right: 250px;
+            .blogimgdiv{
+                .blogimg{
+                    float: right;
+                    margin-top: -450px;
+                    margin-right: 150px;
+                    width: 500px;
+                    height: 450px;
+                }
+            }
+        }
+    }
+    
+    @media screen and (min-width:$tablet) and (max-width:$desktop){
+        body{
+            .titleblock{
+                width: 50%;
+                font-size: 50px;
+            }
+            .bodytext{
+                font-size: 24px;
+            }
+            .blogimgdiv{
+                .blogimg{
+                        width: 500px;
+                        height: 375px;
+                }
             }
         }
     }

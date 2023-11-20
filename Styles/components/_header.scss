@@ -34,3 +34,16 @@ header{
     }
     
 }
+
+@media screen and (min-width:$tablet) and (max-width:$desktop){
+    header{
+        #navitems{
+            justify-content: space-between;
+            .button{
+                width: 100px;
+                height: 60px;
+                font-size: 23px;
+            }
+        }
+    }
+}

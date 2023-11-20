@@ -4,7 +4,7 @@ body{
     @include bodystuff();
     .holder{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: flex-end;
         gap: 15px;
         margin-bottom: -90px;
@@ -36,14 +36,18 @@ body{
                 display: inline-block;
                 color: $textcolor;
                 margin-left: 20px;
+                font-size: 14px;
             }
             .blogtitle{
                 float: right;
                 color: $textcolor;
                 margin-right: 70px;
+                font-size: 14px;
             }
             .blogimage{
                 float: left;
+                width: 85px;
+                height: 85px;
             }
         }
     }
@@ -53,12 +57,49 @@ body{
     body{
         .holder{
             flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-            gap: 180px;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            gap: 10px;
+            #titleblockblog{
+                top: 6.5em;
+            }
             .blogcard{
-                height: 145px;
-                width: 150%;
+                height: 120px;
+                .blogtitle{
+                    font-size: 36px;
+                }
+                h4{
+                    font-size: 24px;
+                }
+                .blogimage{
+                    height: 120px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:$tablet) and (max-width:$desktop){
+    body{
+        .holder{
+            #titleblockblog{
+                top: 7em;
+                h1{
+                    font-size: 40px;
+                }
+            }
+            .blogcard{
+                height: 140px;
+                .blogtitle{
+                    font-size: 40px;
+                }
+                h4{
+                    font-size: 26px;
+                }
+                .blogimage{
+                    width: 160px;
+                    height: 140px;
+                }
             }
         }
     }
