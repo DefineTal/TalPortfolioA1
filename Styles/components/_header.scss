@@ -20,3 +20,17 @@ header{
         }
         }
 }
+
+@media screen and (min-width:$desktop) {
+    header{
+        #navitems{
+            justify-content: space-around;
+            .button{
+                width: 110px;
+                height: 50px;
+                font-size: 25px;
+            }
+        }
+    }
+    
+}

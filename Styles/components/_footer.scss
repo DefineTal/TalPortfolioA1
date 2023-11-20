@@ -8,5 +8,24 @@ footer{
         display: flex;
         justify-content: space-around;
         font-size: 32px;
+        a{
+            i{
+                color: black;
+                transition: 0.7s;
+                &:hover{
+                    scale: 1.3;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    footer{
+        .socialmedia{
+            justify-content: center;
+            gap: 200px;
+            font-size: 40px;
+        }
     }
 }

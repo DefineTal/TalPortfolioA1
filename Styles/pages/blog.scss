@@ -1,6 +1,7 @@
 @import "../../index.scss";
 
 body{
+    @include bodystuff();
     .holder{
         display: flex;
         flex-direction: column;
@@ -43,6 +44,21 @@ body{
             }
             .blogimage{
                 float: left;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    body{
+        .holder{
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            gap: 180px;
+            .blogcard{
+                height: 145px;
+                width: 150%;
             }
         }
     }

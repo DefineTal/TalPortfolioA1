@@ -1,6 +1,7 @@
 @import "../../index.scss";
 
 body{
+    @include bodystuff();
     .titleblock{
         background-color: $accentcolor;
         width: 70%;
@@ -20,3 +21,5 @@ body{
 
     }
 }
+
+@include blogpagebreakpoints();

@@ -1,12 +1,6 @@
 @import "./Styles/defaults/colors";
 @import "./Styles/components/header";
 @import "./Styles/components/footer";
+@import "./Styles/defaults/breakpoints";
+@import "./Styles/components/utils";
 
-body{
-    margin: 0;
-    background-color: $backgroundcolor;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}

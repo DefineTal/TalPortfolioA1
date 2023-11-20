@@ -1,6 +1,37 @@
 @import "../defaults/colors";
 
 @mixin background(){
-    background-color: $componentcolor;
+    background-image: url("../../Images/background.jpg");
     padding: 32px;
+}
+
+@mixin bodystuff(){
+    margin: 0px;
+    background-color: $backgroundcolor;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin blogpagebreakpoints(){
+    @media screen and (min-width: $desktop) {
+        body{
+            .titleblock{
+                margin-top: 60px;
+                width: 30%;
+                margin-left: 20px;
+            }
+            .bodytext{
+                margin-left: 20px;
+                width: 50%;
+                font-size: 26px;
+            }
+            .blogimg{
+                float: right;
+                margin-top: -300px;
+                margin-right: 250px;
+            }
+        }
+    }
 }

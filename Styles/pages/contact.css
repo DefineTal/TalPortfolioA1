@@ -59,49 +59,85 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "Oswald", sans-serif;
 }
 body .circle {
   font-family: "Inter Tight", sans-serif;
   margin: auto;
-  width: 250px;
-  height: 200px;
-  line-height: 200px;
+  width: 200px;
+  height: 150px;
+  line-height: 150px;
   border-radius: 50%;
-  font-size: 50px;
-  color: #fff;
+  font-size: 15px;
   text-align: center;
   background: #E63946;
-}
-body .bodytext {
-  background-color: #457B9D;
-  border: 0.3px solid black;
-  color: #F1FAEE;
-  font-size: 15px;
-}
-body .toblog {
-  text-align: center;
-  color: #F1FAEE;
-}
-body .toblog #arrow {
   transition: 1s;
 }
-body .toblog #arrow:hover {
-  scale: 1.2;
+body .circle:hover {
+  box-shadow: 0px 0px 20px 0px #E63946;
+  scale: 1.1;
+}
+body .circle a {
+  color: #F1FAEE;
+}
+body .contactmetitle {
+  background-color: #E63946;
+  font-size: 36px;
+  font-family: "Inter Tight", sans-serif;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+body .contactmeparent {
+  display: flex;
+  flex-direction: column;
+  background-color: #457B9D;
+}
+body .contactmeparent .contactelement {
+  color: #F1FAEE;
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+}
+body .contactmeparent #submit {
+  margin: auto;
+}
+body .contactmeparent #submit:hover {
+  box-shadow: 0px 0px 1px 0px black;
+}
+body .details {
+  background-color: #457B9D;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #F1FAEE;
+  font-size: small;
+  text-align: center;
 }
 
 @media screen and (min-width: 1440px) {
   body .circle {
-    width: 300px;
-    height: 250px;
-    line-height: 250px;
+    font-size: 36px;
+    position: absolute;
+    margin-bottom: -200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 500px;
+    height: 450px;
+    line-height: 450px;
   }
-  body .bodytext {
-    font-size: 26px;
-    width: 60%;
-    margin: auto;
+  body .contactmetitle {
+    margin-top: -100px;
+    width: 30%;
+    margin-left: 1000px;
   }
-  body .toblog {
-    font-size: 24px;
+  body .contactmeparent {
+    margin-top: -60px;
+    width: 30%;
+    margin-left: 1000px;
   }
-}/*# sourceMappingURL=about.css.map */
+  .details {
+    width: 30%;
+    margin-left: 1000px;
+  }
+}/*# sourceMappingURL=contact.css.map */
