@@ -2,7 +2,7 @@
 
 body{
    @include bodystuff();
-
+        // Styling that controls the Title Block, Main Body and IMG placement and size
         #titleblockhome{
             font-family: 'Inter Tight', sans-serif;
             background-color: $accentcolor;
@@ -27,6 +27,7 @@ body{
                 width: 350px;
                 height: 290px;
             }
+            // adds a hover function to the img that shows text 
             .overlay{
                 margin: auto;
                 margin-top: 414px;
@@ -50,7 +51,7 @@ body{
         }
 
 }
-
+//Media query and breakpoint control for desktop
 @media screen and (min-width:$desktop) {
     body{
         #titleblockhome{
@@ -83,7 +84,7 @@ body{
         }
     }
 }
-
+//Media query and breakpoint for Tablet
 @media screen and (min-width:$tablet) and (max-width:$desktop){
     body{
         #mainblockhome{

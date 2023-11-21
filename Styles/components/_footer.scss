@@ -2,6 +2,7 @@
 @import "../defaults/breakpoints";
 @import "./utils";
 
+// Footer styling with flexbox and adding a hover function for user feedback for the social media graphical component
 footer{
     @include background();
     .socialmedia{
@@ -20,6 +21,7 @@ footer{
     }
 }
 
+//breakpoint for desktop footer
 @media screen and (min-width: $desktop) {
     footer{
         .socialmedia{
@@ -30,6 +32,7 @@ footer{
     }
 }
 
+//breakpoint for tablet footer
 @media screen and (min-width:$tablet) and (max-width:$desktop){
     footer{
         .socialmedia{

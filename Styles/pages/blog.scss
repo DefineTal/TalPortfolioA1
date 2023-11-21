@@ -2,6 +2,7 @@
 
 body{
     @include bodystuff();
+    // Flexbox to posistion the indivual blog posts and the title block
     .holder{
         display: flex;
         flex-direction: column-reverse;
@@ -22,6 +23,7 @@ body{
                     font-weight:bold
                 }
         }
+        //styling for the blog cards
         .blogcard{
             font-family: 'Inter Tight', sans-serif;
             background-color: $textbgcolor;
@@ -52,7 +54,7 @@ body{
         }
     }
 }
-
+//media query for desktop 
 @media screen and (min-width: $desktop) {
     body{
         .holder{
@@ -79,6 +81,7 @@ body{
         }
     }
 }
+//media query for tablet
 @media screen and (min-width:$tablet) and (max-width:$desktop){
     body{
         .holder{

@@ -1,10 +1,12 @@
 @import "../defaults/colors";
 
+//mixin for background img and padding
 @mixin background(){
     background-image: url("../../Images/background.jpg");
     padding: 32px;
 }
 
+//Add inherit flexbox to each page for easier styling for mobile first deveolpment
 @mixin bodystuff(){
     margin: 0px;
     background-color: $backgroundcolor;
@@ -14,6 +16,7 @@
     justify-content: space-between;
 }
 
+//media queries for blogpages as all same layout easier to use a mixin
 @mixin blogpagebreakpoints(){
     @media screen and (min-width: $desktop) {
         body{

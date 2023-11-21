@@ -1,8 +1,8 @@
 @import "../../index.scss";
 
-
 body{
     @include bodystuff();
+    //title block styling
     .titleblock{
         background-color: $accentcolor;
         width: 70%;
@@ -12,6 +12,7 @@ body{
         margin-top: -30px;
         color: $textcolor;
     }
+    //blog content stling
     .bodytext{
         background-color: $textbgcolor;
         width: 95%;
@@ -20,13 +21,15 @@ body{
         font-size: 14px;
         color: $textcolor;
     }
+    //blog image styling
     .blogimgdiv{
         margin-left: auto;
-        margin-right:auto;   
+        margin-right:auto;    
         .blogimg{
         width: 250px;
         height: 200px;
         }
     }
 }
+//mixin for breakpoints
 @include blogpagebreakpoints();

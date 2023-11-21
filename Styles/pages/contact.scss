@@ -2,6 +2,7 @@
 
 body{
     @include bodystuff();
+    // circle div styling also adding a hover function that adds user feedback
      .circle {
         font-family: 'Inter Tight', sans-serif;
         margin: auto;
@@ -21,6 +22,7 @@ body{
             color: $textcolor;
         }
     }
+    // title block styling
     .contactmetitle{       
         background-color: $accentcolor;
         font-size: 36px;
@@ -29,12 +31,12 @@ body{
         width: 100%;
         text-align: center;
     }
-
+    //form div to align items in flexbox
     .contactmeparent{
         display: flex;
         flex-direction: column;
         background-color: $textbgcolor;
-
+        // individual element styling
         .contactelement{
             color: $textcolor;
             width: 60%;
@@ -43,6 +45,7 @@ body{
             margin-right: auto;
             font-size: x-large;
         }
+            // button styling to add user feedback when hovering and to center       
             #submit{
                  margin: auto;
                  &:hover{
@@ -50,6 +53,7 @@ body{
                  }
                 }
     }
+    // detail div styling
     .details{
         background-color: $textbgcolor;
         margin-top: 10px;
@@ -59,6 +63,7 @@ body{
         text-align: center;
     }
 }
+//media query for desktop
 @media screen and (min-width: $desktop) {
     body{
         .circle{
@@ -87,7 +92,7 @@ body{
         margin-left: 1000px;        
     }
 }
-
+//media query for tablet
 @media screen and (min-width:$tablet) and (max-width:$desktop){
     body{
         .circle{

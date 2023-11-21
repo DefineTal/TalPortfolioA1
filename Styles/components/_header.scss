@@ -2,6 +2,7 @@
 @import "../defaults/breakpoints";
 @import "./utils";
 
+//header component using flexbox and hover function on buttons for user feedback
 header{
     @include background();
     #navitems{       
@@ -18,9 +19,10 @@ header{
                 box-shadow: 0px 0px 5px 5px black;
             }
         }
-        }
+    }
 }
 
+//footer breakpoint for desktop
 @media screen and (min-width:$desktop) {
     header{
         #navitems{
@@ -35,6 +37,7 @@ header{
     
 }
 
+//footer breakpoint for tablet
 @media screen and (min-width:$tablet) and (max-width:$desktop){
     header{
         #navitems{
