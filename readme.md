@@ -186,17 +186,16 @@ Blog Card SCSS Code:
 The blog post pages aim is to go into greater detail on the topic specified in the blog home page. The Page itself is extremely basic and doesnt add anything that the previous sites have used. It includes a Title Block and Main text block which like previouse pages are highlighted with their respective colors.
 
 ## Resume & Contact Page Functions and Features
- The contact page is used for people looking to see my resume or people trying to contact me. The main elements of this page that differ from previous is a form element with fillable fields and a download resume text surrounded by a circle. The circle itself will enlarge when hovered over for user feedback and interaction. The form element allows for user interaction within the fields.
+The contact page is used for people looking to see my resume or people trying to contact me. The main elements of this page that differ from previous is a form element with fillable fields and a download resume text surrounded by a circle. The circle itself will enlarge when hovered over for user feedback and interaction. The form element allows for user interaction within the fields.
 
- Circle HTML Code:
-
+Circle HTML Code:
  ```html
      <div class="circle">
         <a href="../Files/Resume.pdf" download="Resume.pdf">To See Resume Click Here!</a>
     </div>
 
  ```
- Circle SCSS Code:
+Circle SCSS Code:
 
  ```css
       .circle {
@@ -225,9 +224,10 @@ The blog post pages aim is to go into greater detail on the topic specified in t
 
 The above sitemap shows how each of my element of my site interacts and where it will send you when interacted with.
 
-**Link to published version:** https://app.uizard.io/p/aebfd804
-
-**Link to Wireframes:** https://www.figma.com/file/EpkwrtQ4H2eITsLXmtIvfM/Home---PH?type=design&node-id=0%3A1&mode=design&t=8CWKWe6Nfma0lCut-1
+## Breakpoints Used:
+- Mobile 360*800 (Default Large Android - given from Figma)
+- Tablet 834*1194 (iPad Pro 11")
+- Desktop 1440*1024 (Figmas Desktop Frame)
 
 ## Tech Stack
 - Figma
@@ -235,6 +235,7 @@ The above sitemap shows how each of my element of my site interacts and where it
 - CSS
 - SCSS
 - HTML
+- Netlify
 
 ## Links
 ### Github Repository
@@ -244,4 +245,10 @@ The above sitemap shows how each of my element of my site interacts and where it
 - https://talie-portfolio.netlify.app/
 
 ### Presentation Video
-- 
+- https://www.youtube.com/watch?v=Oo1v7WxjI0I
+
+### SiteMap:
+- https://app.uizard.io/p/aebfd804
+
+### Wireframes:
+- https://www.figma.com/file/EpkwrtQ4H2eITsLXmtIvfM/Home---PH?type=design&node-id=0%3A1&mode=design&t=8CWKWe6Nfma0lCut-1
