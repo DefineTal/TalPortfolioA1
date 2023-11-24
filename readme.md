@@ -1,14 +1,14 @@
 # Portfolio Overview
 
-The aim of the portfolio, in line with the brief, is to entice potential employers into reaching out and contacting. The Sit itself is used in a way to learn about me as a potential employee in a easy to digest manor that can be accessed using a phone, tablet or a desktop.
+The aim of the portfolio, in line with the brief, is to entice potential employers into reaching out and contacting. The site itself is used in a way to learn about me as a potential employee in a easy to digest manor that can be accessed using a phone, tablet or a desktop.
 
 ## Global Functionality and Features
 
-Overall the site has many features implented into the website it includes different ways to navigate the website in an intuitive way that is different to the usual nav bar approach. While the website was built for the mobile first approach it can be viewed on tablet and desktop as well without a loss to usability. The site uses titles which are made to pop using a bright red. This colour is used throughout the site to show the title/purpose of each of the pages. I use a dark blue as the background color of the main body throughout every page , while also using a lighter blue to indicate the main text component of each.
+Overall, the site has many features implented into the website. It includes different ways to navigate the website in an intuitive way, different to the usual nav bar approach. While the website was built for the mobile first approach it can be viewed on tablet and desktop as well without a loss to usability. The site uses titles which are made to pop using a bright red. This colour is used throughout the site to show the title/purpose of each page. I used a dark blue as the background color of the main body throughout every page, while also using a lighter blue to indicate the main text component of each.
 
 ### Header
 
-The Headers' main component is the nav bar that allows for easy navigation through the website. The main difference between this and a normal navbar is the use of buttons instead of hyperlink text. The decision to use buttons instead of text was because I believe buttons are a much easier navigation tool when using touch screen devices such as mobiles and tablets. The nav bar itself includes ways to get to the home, about, blog, and contact pages. The header itself has breakpoints that change how the header looks when the screen is changed to the desktop and tablet view widths. A background image was used over a color to give the site a bit better of a flow and gives the user the impression that the site is more conjoined rather then just a bunch of separate divs. The buttons themselves are organised using flexbox.
+The headers' main component is the nav bar that allows for easy navigation through the website. The main difference between this and a normal nav bar is the use of buttons instead of hyperlink text. The decision to use buttons instead of text was because I believe buttons are a much easier navigation tool when using touch screen devices such as mobiles and tablets. The nav bar itself includes ways to get to the home, about, blog, and contact pages. The header itself has breakpoints that change how the header looks when the screen is changed to the desktop and tablet view widths. A background image was used over a color to give the site a bit better of a flow, giving the user the impression that the site is more conjoined rather then just a bunch of separate divs. The buttons themselves are organised using flexbox.
 
 Here is the code:
 
@@ -58,7 +58,7 @@ The Footer includes graphical components used to redirect the user to Facebook, 
  ```
 
 ## Home Page Function and Features
-The home page functions as an introductory page that gives the user a brief introduction on who I am. The title is located in the middle for each of the breakpoints to grab the users attention. The graphical component in the home page is a picture of me which when hovered shows the text "Click To Learn About Me" when clicked it will redirect the user to the about page. This gives the user a way to navigate through the page without using the navbar in the header component while in toe gives the user feedback when interacting with the website.
+The home page functions as an introductory page that gives the user a brief introduction on who I am. The title is located in the middle for each of the breakpoints to grab the users attention. The graphical component in the home page is a picture of me which when hovered shows the text "Click To Learn About Me". When clicked it will redirect the user to the about page. This gives the user a way to navigate through the page without using the navbar in the header component while in toe gives the user feedback when interacting with the website.
 
 Graphical Component HTML Code:
 
@@ -105,7 +105,7 @@ Graphical Component SCSS Code:
 ```
 ## About Page Functions and Features
 The about page serves as a way to learn indepth about me more so then the home page.
-While fairly similiar to the home page the about page uses a circle as the title holder and also uses a different graphical component; an arrow, as a way to redirect the user to the blog page.
+While fairly similiar to the home page, the about page uses a circle as the title holder. It also uses a different graphical component; an arrow, as a way to redirect the user to the blog page.
 
 Arrow Graphical Component HTML Code:
 
@@ -135,7 +135,7 @@ Arrow Graphical Component SCSS Code:
 ```
 
 ## Blog Home Page Functions and Features
-The blog page will in the future serve as a way to inform others on my journey in developing my skills. It does this by having a list of blog posts, showing the publish date and the title, shown in a column that when clicked redirect the user to a separate page for the interacted post. The posts themselves are positioned using flex box and the flex-direction: Column-Reverse to sort them so that the oldest is shown at the bottom and allows for easier additions in the future. When hovering these blog cards a box shadow will apear around the card to give the user feedback and to show that the card can be clicked. Each Post has its own dedicated image located on the left of the card.
+The blog page will, in the future, serve as a way to inform others on my journey in developing my skills. It does this by having a list of blog posts, showing the publish date and the title, shown in a column that when clicked redirect the user to a separate page for the interacted post. The posts themselves are positioned using flex box and the flex-direction: Column-Reverse to sort them so that the oldest is shown at the bottom and allows for easier additions in the future. When hovering these blog cards, a box shadow will apear around the card to give the user feedback and to show that the card can be clicked. Each post has its own dedicated image located on the left of the card.
  
  Blog Card HTML Code:
 
@@ -183,7 +183,7 @@ Blog Card SCSS Code:
 ```
 
 ## Blog Post Pages Functions and Features
-The blog post pages aim is to go into greater detail on the topic specified in the blog home page. The Page itself is extremely basic and doesnt add anything that the previous sites have used. It includes a Title Block and Main text block which like previouse pages are highlighted with their respective colors.
+The blog post pages aim is to go into greater detail on the topic specified in the blog home page. The page itself is extremely basic and doesnt add anything that the previous sites have used. It includes a Title Block and Main text block which like previouse pages are highlighted with their respective colors.
 
 ## Resume & Contact Page Functions and Features
 The contact page is used for people looking to see my resume or people trying to contact me. The main elements of this page that differ from previous is a form element with fillable fields and a download resume text surrounded by a circle. The circle itself will enlarge when hovered over for user feedback and interaction. The form element allows for user interaction within the fields.
