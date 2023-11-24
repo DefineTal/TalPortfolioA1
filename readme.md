@@ -224,6 +224,13 @@ Circle SCSS Code:
 
 The above sitemap shows how each of my element of my site interacts and where it will send you when interacted with.
 
+### Mobile
+![image](./mobilewireframes.PNG)
+### Tablet
+![image](./tablet%20wireframes.PNG)
+### Desktop
+![image](./Desktop%20Wireframes.PNG)
+
 ## Breakpoints Used:
 - Mobile 360*800 (Default Large Android - given from Figma)
 - Tablet 834*1194 (iPad Pro 11")
